@@ -1,0 +1,56 @@
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster Two', cursive;
+
+header {
+    width:100%;
+    background-image: url("images/awning.png");
+    display: inline-block;
+}
+
+
+
+#logo1{
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 60pt;
+    color: #660018;
+}
+
+.navmenu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22pt;
+    color: #660018;
+    display: inline-block;
+    margin: 21px;
+}
+
+#homeimg{
+    height: 45px;
+}
+
+.socialimg{
+    height: 40px;
+    margin: 14px;
+}
+
+
+
+h1 {
+    font-family: helvetica, arial, sans-serif;
+   }
+   /* Write your selector for .left below */
+   .left {
+       float: left;
+       padding-right:15px;
+   }
+   
+   /* Write your selector for .right below */
+   .right{
+       float: right;
+       padding-left: 15px;
+   }
+   
+   /* Write your selector for .separator below */
+   .separator{
+       width: 750px;
+   }
