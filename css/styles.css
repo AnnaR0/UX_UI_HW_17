@@ -105,3 +105,32 @@ input[type=submit]:hover {
 #imgfb{
     width: 1280px;
 }
+
+#imgpalm{
+    height: 75px;
+}
+
+#logo2{
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 41px;
+    color: #660018;
+}
+
+.footp{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #660018;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 35px;
+    color: #660018;
+    padding-bottom: 35px;
+}
