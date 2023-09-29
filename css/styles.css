@@ -2,7 +2,7 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster Two', cursive;
 
    /* HEADER */
-header {
+header{
     width:100%;
     background-image: url("images/awning.png");
     display: inline-block;
@@ -11,13 +11,13 @@ header {
 #logo1{
     font-family: 'Lobster Two', cursive;
     font-style: italic;
-    font-size: 60pt;
+    font-size: 42pt;
     color: #660018;
 }
 
 .navmenu{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 22pt;
+    font-size: 16pt;
     color: #660018;
     display: inline-block;
     margin: 21px;
@@ -37,15 +37,18 @@ h1{
   font-family: 'Lobster Two', cursive;
   font-style: italic;
   font-weight: 700;
-  font-size: 40pt;
+  font-size: 30pt;
+  text-align: center;
   color: #660018;
-  border-bottom: 3px;
+  width: 471px;
+  padding-bottom: 33px;
+  border-bottom: 3px solid #660018;
   border-color: #660018;
 }
 
 p{
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 26pt;
+   font-size: 20pt;
    color: #660018;
    text-align: center;
 }
@@ -93,4 +96,12 @@ input[type=submit]:hover {
 .container {
   background-color: #97c29a;
   padding: 80px;
+}
+
+
+#imgig{
+    width: 886px;
+}
+#imgfb{
+    width: 1280px;
 }
