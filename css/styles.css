@@ -51,6 +51,8 @@ p{
    font-size: 20pt;
    color: #660018;
    text-align: center;
+   padding: 0;
+   margin: 10px;
 }
 
 #img1{
@@ -124,6 +126,8 @@ input[type=submit]:hover {
     font-size: 19px;
     color: #660018;
     text-align: left;
+    padding: 0;
+    margin-bottom: 18px;
 }
 
 h2{
