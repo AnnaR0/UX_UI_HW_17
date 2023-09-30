@@ -61,7 +61,15 @@ p{
 }
 
 #img1{
-  width: 820px;  
+  width: 820px;
+  float: left;
+  margin-right: 58px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.body-in-block{
+    display: inline-block;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -106,14 +114,20 @@ input[type=submit]:hover {
   width: 505px;
   padding: 80px;
   display: inline-block;
+  margin-top: 15px;
 }
 
 
 #imgig{
     width: 886px;
+    float: left;
 }
 #imgfb{
     width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 #imgpalm{
