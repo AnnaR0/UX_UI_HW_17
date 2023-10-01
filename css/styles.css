@@ -1,11 +1,10 @@
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Lobster Two', cursive;
-
    /* HEADER */
 header{
-    width:100%;
-    background-image: url(".../images/awning.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/awning.png);
     display: inline-block;
+    height: 150px;
 }
 
 #logo1{
@@ -33,6 +32,7 @@ header{
 .socialimg{
     height: 40px;
     margin: 14px;
+    margin-bottom: -5px;
 }
 
 .head-in-block{
@@ -67,7 +67,7 @@ p{
   width: 820px;
   float: left;
   margin-right: 58px;
-  margin-top: 45px;
+  margin-top: 57px;
   margin-bottom: 50px;
   margin-left: 40px;
 }
@@ -91,6 +91,11 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #660018;
+}
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -103,7 +108,8 @@ input[type=submit] {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  display: inline-block;
+  display: block;
+  margin-left: 110px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -115,10 +121,11 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   background-color: #97c29a;
-  width: 505px;
-  padding: 80px;
+  width: 340px;
+  padding: 70px;
   display: inline-block;
   margin-top: 15px;
+
 }
 
 
@@ -135,6 +142,12 @@ input[type=submit]:hover {
     margin-top: 50px;
 }
 
+footer{
+    background-image: url(../images/footer-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #imgpalm{
     height: 75px;
     margin-left: 40px;
@@ -180,9 +193,8 @@ h2{
     margin-bottom: 100px;
 }
 
-#socialimg2{
+.socialimg-f{
     height: 40px;
-    width: 40px;
     margin: 14px;
     margin-bottom: 100px;
 }
